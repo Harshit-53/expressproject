@@ -1,0 +1,32 @@
+<DOCTYPE>
+    <html lang="en">
+    <head>
+        {{>headerlinks}}
+    </head>
+    <body>
+        {{>navbar}}
+        <!-- main Header -->
+        <div class="container-fluid_main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+                        <div class="col-md-12 col-6 main_header_left align-items-center">
+                            <figure class="errimg">
+                                <img src="404.png" alt="Harshit" class="img-fluid" title="Weather">
+                            </figure>
+                        
+                            <p>Soory! Page not found</p>
+                            <h1>{{errorMsg}}</h1>
+                            <a href="/"><button>Go back</button></a>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- footer -->
+        {{>footer}}
+    </body>
+    </html>
